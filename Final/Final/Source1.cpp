@@ -1,15 +1,41 @@
 /* Final Project: 
 Date Began:  05/10/2018				Date End:
-<ShawnD Herrick> 's Source File
+<ShawnD Herrick and Jimmy Thai> 's Source File
 */
 
 #include <iostream>
 using namespace std;
-void shop1();
+void shop1(int gold, int i1, int i2, int i3);
 int main(int gold, int i1, int i2, int i3)
 {
+	int goONo;
 	int inventory[] = { i1, i2, i3 };
-
+	for (int x = 0; x < 3; x++)
+	{
+		switch (inventory[x])
+		{
+		case 00:
+			cout << "EMPTY" << endl;
+			break;
+		case 01:
+			cout << "Rope -- 25g" << endl;
+			break;
+		case 02:
+			cout << "Potion -- 15g" << endl;
+			break;
+		case 03:
+			cout << "Sword -- 75g" << endl;
+			break;
+		default:
+			break;
+		}
+	}
+	cout << "GO TO SHOP?" << endl;
+	cin >> goONo;
+	if (goONo == 1)
+	{
+		shop1(gold, i1, i2, i3);
+	}
 
 	//system ("pause");
 	return 0;
@@ -17,7 +43,7 @@ int main(int gold, int i1, int i2, int i3)
 void shop1(int gold, int i1, int i2, int i3)
 {
 	int inventory[] = { i1, i2, i3 };		//Calls variables
-	int gold = 100;
+	gold = 100;
 	int itemBuy = 0;
 	int rope = 25;
 	int ropeID = 01;
@@ -54,7 +80,12 @@ void shop1(int gold, int i1, int i2, int i3)
 			}
 		}
 		cout << "What would you like to buy? (-1 to exit) \n>";
-		cin >> itemBuy;								//User Input
+		while (!(cin >> itemBuy))					//User Input
+		{
+			cout << "ERROR!! INVALID INPUT PLEASE TRY AGAIN\n>" << endl;
+			cin.clear();
+			cin.ignore(100000, '\n');
+		}
 		if (itemBuy == 3 || itemBuy == 2 || itemBuy == 1)
 		{
 			switch (itemBuy)
@@ -147,14 +178,11 @@ void shop1(int gold, int i1, int i2, int i3)
 				break;
 			}
 		}
-		else
+		else if (itemBuy <= -2 || itemBuy >= 4 || itemBuy == 0)
 		{
-			cout << "ERROR: ITEM NUMBER " << itemBuy << " NOT FOUND PLEASE TRY AGAIN \n " << endl;
+			cout << "ERROR!! INVALID INPUT PLEASE TRY AGAIN!!" << endl;
 		}
 	} while (itemBuy != -1);
-
-
-
-
-
+	cout << "YAYA" << endl;
+	main(gold, i1, i2, i3);
 }
