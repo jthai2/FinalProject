@@ -43,11 +43,6 @@ int main(int totalGold, int gI1, int gI2, int gI3)
 			break;
 		}
 	}
-	cout << "                   .-                                        _,-." << endl;
-	cout << "	    ______/C_________________________________,.--v/^^ ,/" << endl;
-	cout << "	 ,n#|##|#}{------------------------------ - - - ___-^   " << endl;
-	cout << "	,,,```````|/,-,,,^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        " << endl;
-	cout << "                 c/,                                            " << endl;
 	cout << "GO TO SHOP?" << endl;
 	cin >> goONo;
 	if (goONo == 1)
