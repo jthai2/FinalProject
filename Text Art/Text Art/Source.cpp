@@ -28,6 +28,41 @@ int main()
 	cout << "                   <__\\_| |__| |_/__>                               " << endl;
 	cout << "                   ^^^^ ^^^  ^^^ ^^^^                                " << endl;
 	cout << "                                                                     " << endl;
+	//Hog
+	cout << "                       " << endl;
+	cout << "    .-~~~~-.|\\\\_     " << endl;
+	cout << " @_/          oo\\_    " << endl;
+	cout << "   |   \\       _(\")  " << endl;
+	cout << "   \\   /-| ||'--'     " << endl;
+	cout << "    \\_\\  \\_\\\\     " << endl;
+	//Map - Main
+	cout << "                          " << endl;
+	cout << "        |~                " << endl;
+	cout << "        |~                " << endl;
+	cout << "       /_\\               " << endl;
+	cout << "     |~|#|_|~             " << endl;
+	cout << "  |~/_\\| |#|__|~       |~" << endl;
+	cout << " /_\\|#||#|/__/_\\._._._.|" << endl;
+	cout << " |#||_||_|___|#|...-...|  " << endl;
+	cout << " |......-......|  |#|  |  " << endl;
+	cout << " \\| [] |#| [] ||__|#|__| " << endl;
+	cout << " 1c____|#|____|/          " << endl;
+	//Wand - Pause Menu
+	cout << "         " << endl;
+	cout << "   /\\   " << endl;
+	cout << " <_  _>  " << endl;
+	cout << "  /  \\ " << endl;
+	cout << "  \\/\\/ " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ||    " << endl;
+	cout << "   ..    " << endl;
+	cout << "   ..    " << endl;
 	system("pause");
 	return 0;
 }
