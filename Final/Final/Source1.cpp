@@ -204,18 +204,3 @@ void shop1(int totalGold, int gI1, int gI2, int gI3)
 	totalGold = userGold;
 	main(totalGold, gI1, gI2, gI3);
 }
-
-
-
-
-
-/*
-
-															  
-cout << "			   .-									    _,-." << endl;
-cout << "	    ______/C_________________________________,.-'v/^^ ,/" << endl;
-cout <<	"	 ,n#|##|#}{------------------------------ - - - ___-^   " << endl;
-cout <<	"	,,,```````|/,-,,,^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^       " << endl;
-cout <<	"		     c/,                                            " << endl;
-
-*/
