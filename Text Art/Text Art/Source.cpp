@@ -1,4 +1,7 @@
 #include <iostream>
+#include <windows.h>
+#include <stdio.h>
+#include <cwchar>
 using namespace std;
 
 int main()
@@ -63,6 +66,33 @@ int main()
 	cout << "   ||    " << endl;
 	cout << "   ..    " << endl;
 	cout << "   ..    " << endl;
+	//Skeleton - Death Screen
+	cout << "" << endl;
+	cout << "         _,.-------.,_              " << endl;
+	cout << "     ,;~'             '~;,          " << endl;
+	cout << "   ,;                     ;,        " << endl;
+	cout << "  ;                         ;       " << endl;
+	cout << " ,'                         ',      " << endl;
+	cout << ",;                           ;,     " << endl;
+	cout << "; ;      .           .      ; ;     " << endl;
+	cout << "| ;   ______       ______   ; |     " << endl;
+	cout << "|  '/~\"     ~\" . \"~     \"~\\'  |" << endl;
+	cout << "|  ~  ,-~~~^~, | ,~^~~~-,  ~  |     " << endl;
+	cout << " |   |        }:{        |   |      " << endl;
+	cout << " |   1       / | \\       1   |     " << endl;
+	cout << " .~  (__,.--\" .^. \"--.,__)  ~.    " << endl;
+	cout << " |     ---;' / | \\ ';---     |     " << endl;
+	cout << "  \\__.       \\/^\\/       .__/    " << endl;
+	cout << "   V| \\                 / |V       " << endl;
+	cout << "    | |T~\\___!___!___/~T| |        " << endl;
+	cout << "    | |'IIII_I_I_I_IIII'| |         " << endl;
+	cout << "    |  \\,III I I I III,/  |        " << endl;
+	cout << "     \\   '~~~~~~~~~~~'   /         " << endl;
+	cout << "      \\    .       .    /          " << endl;
+	cout << "       \\.      ^      ./           " << endl;
+	cout << "         ^~~~~~^~~~~~^              " << endl;
+
+	
 	system("pause");
 	return 0;
 }
