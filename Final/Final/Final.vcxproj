@@ -72,6 +72,8 @@
     <ClCompile Include="Source1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="fighting.h" />
+    <ClInclude Include="mainMenu.h" />
     <ClInclude Include="shop1.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
